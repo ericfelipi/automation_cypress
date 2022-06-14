@@ -1,0 +1,14 @@
+{
+    "version":"2.0.0",
+    "tasks":[       
+        {
+            "label":"open cypress",
+            "command":"node",
+            "type": "shell",
+            "args": [
+                "./node_modules/cypress/bin/cypress", 
+                "open"
+            ]
+        }
+    ]
+}

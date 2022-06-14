@@ -1,0 +1,19 @@
+{
+  "name": "aula-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open cypress": "node ./node_modules/cypress/bin/cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "10.1",
+    "install": "^0.13.0",
+    "npm": "^8.12.1"
+  },
+  "dependencies": {
+    "cypress-xpath": "^1.6.2"
+  }
+}
